@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hariprasad Travel Agency - Exp4</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f8f9ff, #e4edf5);
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .navbar {
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            padding: 20px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        
+        .logo {
+            color: white;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+        
+        .nav-links li {
+            margin-left: 25px;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-links a:hover {
+            background: rgba(255,255,255,0.2);
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        
+        h1, h2 {
+            color: #1e3c72;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .divider {
+            height: 3px;
+            background: linear-gradient(to right, #1e3c72, #4b6cb7);
+            margin: 25px auto;
+            width: 80px;
+            border-radius: 3px;
+        }
+        
+        .tour-item {
+            background: #f8f9ff;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            border-left: 4px solid #4b6cb7;
+        }
+        
+        .tour-title {
+            font-weight: bold;
+            color: #1e3c72;
+        }
+        
+        .tour-price {
+            color: #c53030;
+            font-weight: bold;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: #4b6cb7;
+            color: white;
+        }
+        
+        .contact-info {
+            background: #e6f2ff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        
+        .contact-info p {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        
+        .highlight {
+            font-weight: bold;
+            color: #1e3c72;
+        }
+        
+        .footer {
+            background: #1e3c72;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Hariprasad Travels</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <div class="card">
+            <h1>Hariprasad Travel Agency</h1>
+            <p style="text-align: center; color: #4b6cb7; font-style: italic;">Experience India's Spiritual Heritage</p>
+            
+            <div class="divider"></div>
+            
+            <h2>Featured Temple Tours</h2>
+            <div class="tour-item">
+                <span class="tour-title">Golden Temple Tour</span> - 5 days from <span class="tour-price">₹12,499</span>
+            </div>
+            <div class="tour-item">
+                <span class="tour-title">South India Temple Trail</span> - 10 days from <span class="tour-price">₹28,500</span>
+            </div>
+            <div class="tour-item">
+                <span class="tour-title">Char Dham Yatra</span> - 14 days from <span class="tour-price">₹56,900</span>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Tour Packages</h2>
+            <table>
+                <tr>
+                    <th>Package</th>
+                    <th>Duration</th>
+                    <th>Price (INR)</th>
+                </tr>
+                <tr>
+                    <td>Tirupati Special</td>
+                    <td>3 days</td>
+                    <td>₹8,999</td>
+                </tr>
+                <tr>
+                    <td>Varanasi & Ayodhya</td>
+                    <td>5 days</td>
+                    <td>₹15,500</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="card">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <p><b>Phone:</b> <span class="highlight">9345402949</span></p>
+                <p><b>Email:</b> info@hariprasadtravel.com</p>
+                <p><b>Address:</b> Temple Street, Bhavani, Tamilnadu</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>&copy; 2023 Hariprasad Travel Agency. All rights reserved.</p>
+    </div>
+</body>
+</html>
